@@ -1,10 +1,13 @@
-const app = () => {
+import Navbar from "./assets/components/Navbar";
+
+const App = () => {
 
   return (
     <>
-    <h1>hello</h1>
+    <Navbar />
+    
     </>
   );
 }
 
-export default app;
+export default App;
