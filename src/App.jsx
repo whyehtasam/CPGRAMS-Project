@@ -1,10 +1,10 @@
-import Navbar from "./assets/components/Navbar";
+import Header from "./assets/components/Header";
 
 const App = () => {
 
   return (
     <>
-    <Navbar />
+   <Header />
     
     </>
   );
