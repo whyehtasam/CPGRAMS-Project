@@ -35,12 +35,12 @@ const viewStatus = [
     ]
   ];
 
-const Header = () => {
+const Header = (props) => {
     return (
         <>
             <TopNavbar />
             <MidNavbar />
-            <BottomNavbar viewStatus={viewStatus} nodalPgOfficers={nodalPgOfficers} redressProcess={redressProcess} grievance={grievance} />
+            <BottomNavbar viewStatus={viewStatus} nodalPgOfficers={nodalPgOfficers} redressProcess={redressProcess} grievance={grievance} buttons={props.buttons} />
         </>
     )
 }

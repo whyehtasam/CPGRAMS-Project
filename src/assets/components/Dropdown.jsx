@@ -17,7 +17,7 @@ const Dropdown = (props) => {
 
     return (
         <>
-            <div className="dropdown dropdown-hover mx-2 bg-transparent" onClick={toggleOpen} >
+            <div className="dropdown dropdown-hover  bg-transparent" onClick={toggleOpen} >
                 {title.map((item) => {
                     return (
                         <div tabIndex={0} role="button" className="btn m-1 btn-sm btn-ghost  text-white text-md w-max" key={item.title}>
