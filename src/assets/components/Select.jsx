@@ -1,7 +1,7 @@
 const Select = () => {
     return (
         <>
-            <select className=" select w-fit max-w-xs mx-2 select-sm bg-transparent border border-white text-white focus:border-white">
+            <select className=" select font-medium w-fit max-w-xs mx-2 select-sm bg-transparent border border-white text-white focus:border-white">
                 <option disabled selected className="text-black">Language</option>
                 <option className="text-black">English</option>
                 <option className="text-black">Hindi</option>

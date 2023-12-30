@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { faAngleDown, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faMagnifyingGlass,faUser,faBarsProgress,faClipboard} from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from 'react';
 
@@ -18,10 +18,11 @@ const Dropdown = (props) => {
     return (
         <>
             <div className="dropdown dropdown-hover  bg-transparent" onClick={toggleOpen} >
+            <FontAwesomeIcon icon={'props.icons'} className='' size='sm' />
                 {title.map((item) => {
                     return (
                         <div tabIndex={0} role="button" className="btn m-1 btn-sm btn-ghost  text-white text-md w-max" key={item.title}>
-                            <FontAwesomeIcon icon={faMagnifyingGlass} className='' size='sm' />
+                            <FontAwesomeIcon icon={props.icons} className='' size='sm' />
                             {item.title}
                             <FontAwesomeIcon icon={faAngleDown} className='mt-1' size='sm' />
                         </div>
