@@ -2,7 +2,7 @@ import Dropdown from "./Dropdown";
 import Select from "./Select";
 import Button from "./Button";
 
-import {  faMagnifyingGlass, faUser, faBarsProgress, faClipboard } from "@fortawesome/free-solid-svg-icons";
+import { faRightToBracket, faMagnifyingGlass, faUser, faBarsProgress, faClipboard,faUserGroup, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 
 const BottomNavbar = (props) => {
 
@@ -20,13 +20,13 @@ const BottomNavbar = (props) => {
                     <Dropdown data={props.redressProcess} icons= {faBarsProgress}/>
                     <Dropdown data={props.grievance}  icons= {faClipboard}/>
                     
-                    <Button value={nodalAuthority}/>
-                    <Button value={mobileApp}/>
+                    <Button value={nodalAuthority} icons= {faUserGroup} buttonStyle='btn-ghost btn-sm mx-1 rounded text-white' />
+                    <Button value={mobileApp} icons= {faMobileScreen} buttonStyle='btn-ghost btn-sm mx-1 rounded text-white'/>
 
                 </div>
                 <div className="signin flex w-4/12 justify-end">
                     <Select />
-                    <Button value={signIn}/>
+                    <Button value={signIn} icons={faRightToBracket} buttonStyle='btn-ghost btn-sm bg-yellow-500 rounded mx-2 hover:text-white hover:bg-yellow-600'/>
 
                 </div>
             </div>

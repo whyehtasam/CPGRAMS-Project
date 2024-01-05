@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Button = (props) => {
     
     return(
         <>
-        <button className="btn  btn-ghost btn-sm bg-yellow-500 rounded mx-2 hover:text-white hover:bg-yellow-600">{props.value}</button>
+        <button className={'btn ' + props.buttonStyle}><FontAwesomeIcon icon={props.icons} />{props.value}</button>
         </>
     )
 }

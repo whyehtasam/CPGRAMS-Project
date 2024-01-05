@@ -3,7 +3,7 @@ const MidNavbar = () => {
 
     return (
         <>
-            <div className=" navbar h-32 p-2">
+            <div className=" navbar h-28 p-2">
                 <div className="navbar-start h-full ml-10">
                     <img src={Logo} alt="logo" className='h-full' />
                 </div>

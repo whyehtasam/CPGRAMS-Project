@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { faAngleDown, faMagnifyingGlass,faUser,faBarsProgress,faClipboard} from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from 'react';
 
@@ -12,13 +12,13 @@ const Dropdown = (props) => {
         setIsOpen(!isOpen);
         console.log('clicked');
     }
-    const title = props.data[0];
-    const lists = props.data[1];
-
+   
+    const [title, lists] = props.data;
+    
     return (
         <>
             <div className="dropdown dropdown-hover  bg-transparent" onClick={toggleOpen} >
-            <FontAwesomeIcon icon={'props.icons'} className='' size='sm' />
+                <FontAwesomeIcon icon={'props.icons'} className='' size='sm' />
                 {title.map((item) => {
                     return (
                         <div tabIndex={0} role="button" className="btn m-1 btn-sm btn-ghost  text-white text-md w-max" key={item.title}>
