@@ -1,4 +1,5 @@
 import Header from "./assets/components/Header";
+import Body  from "./assets/components/Body/Body";
 
 const App = () => {
 
@@ -6,6 +7,7 @@ const App = () => {
   return (
     <>
    <Header buttons = {buttons} />
+   <Body />
     
     </>
   );

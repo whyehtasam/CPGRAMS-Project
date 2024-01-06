@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.slick-slider > .slick-prev {
+    margin-left: -20px;
+}
+.slick-slider > .slick-prev::before {
+    font-size: 25px;
+}
+.slick-slider > .slick-next::before {
+    font-size: 25px;
+}
+.slick-slider > .slick-next {
+    margin-right: -20px;
+}
+.slick-dots {
+    bottom: 12px;
+    
+}
+.slick-dots ul {
+    list-style: none; /* Remove default bullets */
+  }
+  .slick-dost > ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
