@@ -67,8 +67,7 @@ const Carousel = (props) => {
         ]
     };
     return (
-        <div className="w-[94vw] m-auto">
-
+        <div className="w-[93vw] m-auto">
             <Slider {...settings}>
                 {props.imagePath.map((item) => {
                     return <div key={item.id} className="">
@@ -77,7 +76,7 @@ const Carousel = (props) => {
                 })}
             </Slider>
         </div>
-    );
+    )
 }
 
 
