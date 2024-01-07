@@ -1,5 +1,5 @@
 const Card = props => {
-let style = "card w-96  m-2 bg-base-100 shadow-md border "+ props.className;
+let style = "card w-96 m-2 bg-base-100 shadow-md border "+ props.className;
     return (
         <div className={style} key={props.id}>
             <figure className="p-10 flex justify-center items-center">
