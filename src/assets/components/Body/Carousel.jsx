@@ -34,7 +34,9 @@ const Carousel = (props) => {
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
-        speed: 1000,
+       
+        // Remove the duplicate key 'speed'
+        // speed: 1000,
         autoplaySpeed: 5000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
