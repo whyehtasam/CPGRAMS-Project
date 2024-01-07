@@ -1,16 +1,17 @@
 {
   "name": "cpgrams-project",
   "private": true,
-  "homepage": "https://whyehtasam.github.io/CPGRAMS-Project",
+  "homepage": "https://whyehtasam.github.io/CPGRAMS-Project/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
