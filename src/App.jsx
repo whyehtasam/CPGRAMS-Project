@@ -10,9 +10,9 @@ import ContactImg from './assets/images/ContactUs.png';
 const App = () => {
 
   const cardData = [
-    { id: 1, src: RegisterImg, btnText: 'REGISTER / SIGN IN',bgColor: 'bg-[#80C8EA]' },
-    { id: 2, src: VerifyImg, btnText: 'VERIFY STATUS' ,bgColor: 'bg-[#E28FAA]' },
-    { id: 3, src: ContactImg, btnText: 'CONTACT US' ,bgColor: 'bg-[#F3CF9B]' }
+    { id: 1, src: RegisterImg, btnText: 'REGISTER / SIGN IN',bgColor: 'bg-cyan-500' },
+    { id: 2, src: VerifyImg, btnText: 'VERIFY STATUS' ,bgColor: 'bg-rose-400' },
+    { id: 3, src: ContactImg, btnText: 'CONTACT US' ,bgColor: 'bg-orange-300' }
   ];
 
 
