@@ -1,11 +1,16 @@
 # Forest & Wildlife Department - IT Internship Project
 
 Welcome to the IT Internship Project with the Forest and Wildlife Department, Government of NCT of Delhi! 🌿🌳
-## Webisite
-https://cpgrams-project.vercel.app/
+
+## Webisite Link
+
+Original Portal : https://pgportal.gov.in/ <br>
+GitHub Page: https://whyehtasam.github.io/CPGRAMS-Project/ <br>
+Vercel app: https://cpgrams-project.vercel.app/
+
 ## Project Overview
 
-In this internship project, I've embarked on the challenge of replicating the official government web portal [pgportal.gov.in](https://pgportal.gov.in/) using React.js. The objective is to craft a contemporary and user-friendly web application that faithfully reproduces the functionalities and design of the original portal.
+In this internship project, I've embarked on the challenge of replicating the official government web portal (https://pgportal.gov.in/) using React.js. The objective is to craft a contemporary and user-friendly web application that faithfully reproduces the functionalities and design of the original portal.
 
 ## Technologies and Tools Utilized
 
