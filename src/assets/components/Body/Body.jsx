@@ -1,4 +1,4 @@
-import Carousel from "./carousel";
+import Carousel from "./Carousel";
 import Content from "./Content";
 import slider1 from '../../images/slider1.jpeg';
 import slider2 from '../../images/slider2.jpeg';

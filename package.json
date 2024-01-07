@@ -1,7 +1,7 @@
 {
   "name": "cpgrams-project",
   "private": true,
-  "homepage": "http://whyehtasam.github.io/CPGRAMS-Project",
+  "homepage": "https://whyehtasam.github.io/CPGRAMS-Project",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
