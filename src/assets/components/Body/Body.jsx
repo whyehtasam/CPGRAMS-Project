@@ -22,6 +22,7 @@ const Body = () => {
         <>
         <Carousel imagePath={imagePath}/>
         <Content />
+       
         </>
     );
 };
